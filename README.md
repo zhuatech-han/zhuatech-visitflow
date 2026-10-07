@@ -1,3 +1,5 @@
+[中文](README.md) | [English](README.en.md)
+
 <img src="frontend/public/brand/logo.jpg" width="190" alt="知华科技">
 
 # VisitFlow 企业访客接待与在场管理
@@ -54,6 +56,8 @@
 
 ## 当前运行页面
 
+登录页用于岗位认证；员工首页展示本人登记及指定确认，登记列表用于查找来访，前台牌管理维护可发放状态。详情展示现场进出及事件历史，在场名单保留实际未离场记录；统计和角色页面显示授权数据及权限。
+
 截图来自隔离测试数据库中的实际操作，带“验收测试”的记录不随空库安装。
 
 | 登录 | 员工首页 |
@@ -67,6 +71,10 @@
 | 来访统计 | 角色与权限 |
 | --- | --- |
 | ![来访统计](docs/screenshots/dashboard.jpg) | ![角色权限](docs/screenshots/roles.jpg) |
+
+| 来访详情与事件 | 实际在场名单 |
+| --- | --- |
+| ![来访详情](docs/screenshots/detail.jpg) | ![在场名单](docs/screenshots/onsite.jpg) |
 
 ## 运行工程
 
@@ -175,6 +183,7 @@ python3 scripts/release-check.py
 
 ## 联系知华科技
 
+商业授权或深度定制开发请联系知华科技。
 
 本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 [https://www.zhuatech.cn/](https://www.zhuatech.cn/)，或添加微信 zhuatech、zhuatech2 咨询。
 
